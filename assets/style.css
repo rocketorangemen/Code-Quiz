@@ -1,0 +1,11 @@
+.start {
+    background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  justify-content: center;
+  display: inline-block;
+  font-size: 40px;
+  font-weight: bold
+};
