@@ -8,11 +8,26 @@
 </head>
 <body>
     <header>
+        <nav>
+            <h1>Coding 101: Test Your Skills</h1>
+            <button class="start" onclick="startQuiz()">Start Quiz</button>
+            <h2 id="countdown">Timer: <span id=timer></span></h2>
+        </nav>
+
         <div>
-        <h1>Coding 101: Test Your Skills</h1>
-        <button class="start">Start Quiz</button>
+            <p>Your score will be tracked. If you answer incorrectly your time to complete quiz will be reduced by 10 seconds</p>
         </div>
-    </header>
+
+        <section id="questions">
+            <h2 class="question-title">Quiz Questions</h2>
+            <div class="radio">
+            <div id="questionTitle"></div>
+            <div id="questionChoices1"></div>
+            <div id="questionChoices2"></div>
+            <div id="questionChoices3"></div>
+            </div>
+        </section>
+
 </body>
 <script src="js/script.js"></script>
 </html>
