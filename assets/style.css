@@ -28,7 +28,9 @@ header button {
     display: inline-block;
     margin: 0 400px;
 }
-
+* {
+    background-color: rgb(179, 177, 177);
+}
 header button:hover {
     background-color: red;
     color: black;
